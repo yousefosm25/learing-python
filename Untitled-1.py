@@ -22,3 +22,10 @@ print(f"{name} {age}") #how to print two different variables with different form
 salary = 3000
 employeeinfo = "yousef mosed {} dollar "
 print(employeeinfo.format(salary)) # to put a value in the text 
+
+led_off = False
+lde_on = True
+if led_off :
+    print("LED is off")
+else:
+    print("LED is on")
