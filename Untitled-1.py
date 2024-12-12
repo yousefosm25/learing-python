@@ -21,7 +21,7 @@ print(f"{name} {age}") #how to print two different variables with different form
 
 salary = 3000
 employeeinfo = "yousef mosed {} dollar "
-print(employeeinfo.format(salary)) # to put a value in the text 
+print(employeeinfo.format(salary)) # to put a variables in the text 
 
 led_off = False
 lde_on = True
