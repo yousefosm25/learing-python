@@ -17,4 +17,4 @@ fhghkf;gjh
 fghjklfgh
 gfj;'''     # to identify the large text 
 
-print(f"Muhammed Essa age {age} ")
+print(f"Muhammed Essa age {name} ")
