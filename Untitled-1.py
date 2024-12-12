@@ -17,4 +17,8 @@ fhghkf;gjh
 fghjklfgh
 gfj;'''     # to identify the large text 
 
-print(f"Muhammed Essa age {name} ")
+print(f"{name} {age}") #how to print two different variables with different format 
+
+salary = 3000
+employeeinfo = "yousef mosed {} dollar "
+print(employeeinfo.format(salary)) # to put a value in the text 
