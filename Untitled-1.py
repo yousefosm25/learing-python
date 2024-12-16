@@ -25,7 +25,25 @@ print(employeeinfo.format(salary)) # to put a variables in the text
 
 led_off = False
 lde_on = True
-if led_off :
+num1 = 10
+num2 = 20
+if led_off:
     print("LED is off")
+    
+if num1>num2:
+     print("num1 is greater than num2")
+     
+        
+if num1 == num2:
+     print("num1 is equal to num2")
 else:
-    print("LED is on")
+    print("num1 is not equal to num2")
+    
+if num1 < num2:
+    print("num1 is less than num2")
+elif num1 > num2:
+    print("num1 is greater than num2")
+else:
+    print("num1 is not less than num2")
+    
+print("Hello World")
