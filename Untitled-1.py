@@ -1,3 +1,4 @@
+"""
 print("yousef") #print in python
 age = 38
 name = "Muhammed Essa"
@@ -8,7 +9,7 @@ num = 10
 dgree = 55.2
 myname = 'yousef\'s havebook' #to ignore ' if i want to used it 
 
-some_text = """trgjgfh
+some_text = """"""trgjgfh
 gd;kjh
 fghj;f
 gfjh"""
@@ -16,7 +17,7 @@ sometext='''hgkl
 fhghkf;gjh
 fghjklfgh
 gfj;'''     # to identify the large text 
-
+"""
 print(f"{name} {age}") #how to print two different variables with different format 
 
 salary = 3000
@@ -47,3 +48,16 @@ else:
     print("num1 is not less than num2")
     
 print("Hello World")
+"""
+names = ["yousef","mosed","fawze","yousef"]    #list
+print(names)
+print (len(names))     #how many items in the list
+ages =[1,2,3,4,5,6,7]
+check1=[True,False,True,False,False,False]
+dataset = ["yousef","mosed",1,True]
+print(names[0])   # to print the first item
+names.insert(0,"esraa") # to insert the items 
+names.insert(1,"mo")
+print(names) 
+del(names[5])# to delete items
+print(names)
