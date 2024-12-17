@@ -49,6 +49,7 @@ else:
     
 print("Hello World")
 """
+"""
 names = ["yousef","mosed","fawze","yousef"]    #list
 print(names)
 print (len(names))     #how many items in the list
@@ -60,4 +61,26 @@ names.insert(0,"esraa") # to insert the items
 names.insert(1,"mo")
 print(names) 
 del(names[5])# to delete items
-print(names)
+print(name)
+"""
+
+#tuple unchangable
+mypermissionlevel = ("admin","teacher","student")    #tuple
+print(mypermissionlevel)
+print(len(mypermissionlevel))
+
+mykey = ("1",)
+print(mykey)
+
+ages =(1,2,3,4,5,6,7)
+check1=(True,False,True,False,False,False)
+
+dataset = ("yousef","mosed",1,True)
+print(dataset[0])
+
+#to change items in tuple
+
+mylist = list(mypermissionlevel) # to change tuple to list
+mylist[2] = 3 
+mytuple = tuple(mylist) # to change list to tuple
+print(mytuple)
