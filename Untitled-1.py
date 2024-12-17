@@ -64,7 +64,7 @@ del(names[5])# to delete items
 print(name)
 """
 
-#tuple unchangable
+#tuple unchangable order
 mypermissionlevel = ("admin","teacher","student")    #tuple
 print(mypermissionlevel)
 print(len(mypermissionlevel))
@@ -84,3 +84,16 @@ mylist = list(mypermissionlevel) # to change tuple to list
 mylist[2] = 3 
 mytuple = tuple(mylist) # to change list to tuple
 print(mytuple)
+
+
+#Sets uncachable and unordered unindex 
+
+myname ={"yousef","mosed","fawze"}
+print(myname)
+
+myname.add("elshike")
+print(myname)
+
+myname.remove("yousef")
+print(myname)
+
