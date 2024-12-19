@@ -86,7 +86,7 @@ print(mytuple)
 
 
 #Sets uncachable and unordered unindex 
-
+'''
 myname ={"yousef","mosed","fawze"}
 print(myname)
 
@@ -95,6 +95,128 @@ print(myname)
 
 myname.remove("yousef")
 print(myname)
-
+'''
 # dictionary ordered changeable not repeat
 
+mydoc={"name": "yousef"
+       ,"last_name":"elshike" 
+       ,"age":19
+       ,"years":[1,2,3,4,5,6]}
+print(mydoc),
+print(mydoc["name"])
+print(len(mydoc))
+mydoc["department"]="development"
+print(mydoc)
+mydoc.update({"name":"mosed"})
+print(mydoc)
+mydoc.pop("age")
+print(mydoc)
+
+# for loop
+print(names)
+for a in names:
+    print(a)
+for a in name:
+    print(a)
+
+for a in range(7):
+    print(a)
+for a in range(1,20):
+    print(a)
+for a in range(1,20,4):
+    print(a)
+
+#function 
+
+def my_name():
+    print("yousef")
+
+def my_name(lname):
+    print("yousef " + lname)
+    
+my_name("yousef")
+
+
+def my_name(lname,fname):
+    print(f"{fname} {lname}")
+    
+my_name("ali","ahmed")
+
+# *args
+def my_name(*lname):
+    print("Name is : " + lname[0])
+
+my_name("ahmed" , " Mahmed")
+
+def my_name(lname,sname,fname):
+    print(f"{fname} {sname} {lname}")
+  
+
+#my_name(fname=input("first name: "),sname=input("secand name: "),lname=input("last name: "))
+
+#**kwargs
+def my_name(**names):
+    print(f"{names["fname"]}{names["lname"]}")
+my_name(fname ="ahmed",lname = "marime")
+
+def my_name(lname =" elshike"):
+    print(f"yousef{lname}")
+    
+my_name("mosed")
+
+def addNumbers(y):
+    return 2*y
+
+print(addNumbers(2))
+
+def changetoupcase(myname):
+    return myname.upper() 
+print(changetoupcase("yousef"))
+
+#mytext = input('enter first name: ')
+#rint(f"hello {mytext.upper()}") 
+
+#mytext =input('enter number: ')
+#print(type(mytext))
+#print(f"square of {mytext} is {int(mytext)**2}")
+
+#calss object
+
+class Person:
+    name= "yousef"
+    
+myname=Person()
+
+myname.name
+
+print(myname.name)
+
+
+class Person1:
+   def __init__(self,name,age,salary):
+       self.name = name
+       self.age  = age
+       self.salary = salary
+    
+yousef=Person1("yousef",30,2500)
+mosed=Person1("mosed",50,3000)
+esraa=Person1("esraa",30,2000)
+print(f"{yousef.name} {yousef.age} {yousef.salary}")
+print(f"{mosed.name} {mosed.age} {mosed.salary}")
+print(f"{esraa.name} {esraa.age} {esraa.salary}")    
+
+
+class Person2:
+    def __init__(self,name,age,salary):
+       self.name = name
+       self.age  = age
+       self.salary = salary
+    def __str__(self):
+        return f"Name: {self.name} Age: {self.age} Salary: {self.salary}"
+    def in_salary(self):
+        z =self.salary +1000
+        print (z)
+        
+yousef = Person2("yousf",40,20500)
+print(yousef)
+yousef.in_salary()
